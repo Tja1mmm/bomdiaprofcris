@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Chemistry Walls</title>
+    <title>qui</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="ok.css">
 </head>
 <body>
+    <div id="Slogan" style="z-index: -1; position: fixed; font-size: 20pt; color: #999999; text-align: justify; margin-left: 6px; margin-right: 6px;"></div>
     <div id="content">
-        <h1>Level #1</h1>
-        <button id="confirm">Break</button>
+        <h1>Faça uma ligação com os elementos!</h1>
+        <h3>Complete com Hidrogênio se necessário</h2>
+        <h2 id="title">Nível #0</h1>
+        <div id="form">
+            <h2 id="main"></h2>
+            <input type="text" placeholder="Resposta: CHN" id="formula" value="">
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <button id="voltar" onclick="voltar()"></button>
+                <button id="dica" onclick="resposta()" title="Dicas aparecerão aqui. Clique para ver as respostas.">?</button>
+                <button id="break" onclick="derrubar()"></button>
+            </div>
+            </div> 
     </div>
+    <script src="ok.js"></script>
 </body>
 </html>

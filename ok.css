@@ -1,0 +1,92 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    height: 20vh;
+    width: 40vw;
+    margin: 30vh;
+    padding: 10vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+    box-shadow: 0 0 10px 5px;
+    gap: 1vh;
+}
+
+h1 {
+    font-size: 1.75em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+#main {
+    font-size: 1.2em;
+}
+
+input {
+    border-radius: 20px;
+    border: solid 1px dodgerblue;
+    padding: .5em;
+    padding-left: 1em;
+    text-transform: uppercase;
+    width: 25vw;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+#break {
+    font-family: 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-color: transparent transparent transparent #965757;
+    border-width: 1.5rem 0 1.5rem 3rem;
+    height: 0;
+    width: 0;
+}
+
+#voltar {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-color: transparent #c98b8b transparent transparent ;
+    border-width: 1rem 2rem 1rem 0;
+    height: 0;
+    width: 0;
+}
+#dica {
+    border-radius: 100%;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#dica:hover {
+    opacity: .5;
+}
+
+#voltar:hover {
+    border-color: transparent #b93434 transparent transparent;
+}
+
+#break:hover {
+    border-color: transparent transparent transparent #b93434;
+}
